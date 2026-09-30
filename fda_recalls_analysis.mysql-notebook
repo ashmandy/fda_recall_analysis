@@ -1,0 +1,79 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "Untitled-1",
+    "content": "\nCREATE DATABASE IF NOT EXISTS fda_recalls;\nUSE fda_recalls;",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": null,
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 3,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "index": 0,
+                            "resultId": "5dd0d11d-e9f7-40d2-fe1b-92d7de673a9e",
+                            "content": "OK, 1 row affected in 30.361ms"
+                        },
+                        {
+                            "type": 2,
+                            "index": 1,
+                            "resultId": "865170bf-d9c6-4946-c056-c54f6ecfee59",
+                            "content": "OK, 0 records retrieved in 3.057ms"
+                        },
+                        {
+                            "type": 5,
+                            "index": -1,
+                            "content": "✓ SQL Script execution completed in 56ms. 2 statements executed successfully.",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 300,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 43
+                        },
+                        "contentStart": 1,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 43,
+                            "length": 17
+                        },
+                        "contentStart": 44,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 1,
+                "end": 3,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": []
+            },
+            "data": []
+        }
+    ]
+}
